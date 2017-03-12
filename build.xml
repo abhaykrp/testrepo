@@ -30,7 +30,7 @@
 
         <!-- Creates Javadoc -->
         <target name="docs" depends="compile">
-                <javadoc packagenames="src" sourcepath="${src.dir}" destdir="${docs.dir}">
+                <javadoc packagenames="src" sourcepath="${src.dir}" jarfile="${docs.dir}">
                         <!-- Define which files / directory should get included, we include all -->
                          
                 </javadoc>
